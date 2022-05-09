@@ -2,9 +2,8 @@ print ('pipiskia')
 a = int(input())
 b = int(input())
 c = int(input())
-if (a == b) and (b ==c):
-    print ("3")
-elif ((a==b)or(a==c)or(c==b)):
-    print("2")
+d = int(input())
+if (a == c) or (b ==d):
+    print ("yes")
 else :
     print("0")
