@@ -2,8 +2,7 @@ print ('pipiskia')
 a = int(input())
 b = int(input())
 c = int(input())
-d = int(input())
-if (((a-c==2)or(a-c==-2))and(( b-d ==1)or(b-d==-1))) or (((b-d==2)or(b-d==-2))and((a-c==1)or(a-c==-1))):
+if ((c % a == 0)or(c % b == 0)) and (a*b>=c) :
     print ("yes")
 else :
-    print("0")
+    print("no")
