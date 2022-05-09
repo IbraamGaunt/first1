@@ -1,6 +1,10 @@
 print ('pipiskia')
 a = int(input())
-if (a% 4 == 0) and ((a % 100 != 0 ) or (a%400==0)):
-    print ("vis")
-else:
-    print("net")
+b = int(input())
+c = int(input())
+if (a == b) and (b ==c):
+    print ("3")
+elif ((a==b)or(a==c)or(c==b)):
+    print("2")
+else :
+    print("0")
