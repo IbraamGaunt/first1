@@ -2,7 +2,12 @@ print ('pipiskia')
 a = int(input())
 b = int(input())
 c = int(input())
-if ((c % a == 0)or(c % b == 0)) and (a*b>=c) :
-    print ("yes")
-else :
-    print("no")
+d = int(input())
+if a<(c/2) and a<b and a<(d-b) :
+    print (a)
+elif  (c-a)<b and (c-a)<(d-b) :
+    print ((c-a))
+elif  b<(d-b):
+    print (b)
+else:
+    print (d-b)
