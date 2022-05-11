@@ -1,3 +1,5 @@
-import math
-a = (float(input())*120)
-print((a//3600),((a%3600)//60),(a%60))
+a= int(input())
+b= int(input())
+for i in range(a, b+1):
+    a=a+1
+    print(a-1)
