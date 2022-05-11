@@ -1,6 +1,8 @@
 b=int(input())
-a=0
+a=1
+c=0
 for i in range(0,b):
-        a = a + int(input())
+        c =c+ a*a*a
+        a = a + 1
 
-print(a )
+print(c)
