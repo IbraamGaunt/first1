@@ -1,3 +1,3 @@
 import math
-a =float(input())
-print((a%30)*12)
+a = (float(input())*120)
+print((a//3600),((a%3600)//60),(a%60))
