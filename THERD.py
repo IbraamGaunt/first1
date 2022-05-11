@@ -1,6 +1,5 @@
-a= int(input())
-b= int(input())
-for i in range(a, b + 1,2):
-        a = a + 1
 
-        print(a - 1)
+for i in range(0,10):
+        a = a + int(input())
+
+print(a - 1)
