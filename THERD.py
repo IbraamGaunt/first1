@@ -1,8 +1,10 @@
-import time
-import sys
-for remaining in range(10, 0, -1):
-    sys.stdout.write("\r")
-    sys.stdout.write("{:2d} seconds remaining.".format(remaining))
-    sys.stdout.flush()
-    time.sleep(1)
-sys.stdout.write("\rComplete!            \n")
+s = str(input())
+print(s[2])
+print(s[-2])
+print(s[0:5])
+print(s[0:-2])
+print(s[0::2])
+print(s[1::2])
+print(s[::-2])
+print(s[::-2])
+print(len(s))
