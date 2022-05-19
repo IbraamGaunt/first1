@@ -13,6 +13,5 @@ while i==0:
     ages.append(b1)
 f.write(str(names))
 f.write(str(ages))
-g = open('Personal.txt','r')
-print(g.read())
+print("kirgizia")
 f.close()
