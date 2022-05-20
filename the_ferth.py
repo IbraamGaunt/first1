@@ -1,5 +1,9 @@
 b = int(input())
-a = 1
-while (a*a)<=b:
-    print(a*a)
-    a = a+1
+a = 0
+c = 2
+while a == 0:
+    if b % c == 0:
+        break
+    else:
+        c = c+1
+print(c)
